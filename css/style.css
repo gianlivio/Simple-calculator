@@ -23,7 +23,7 @@ body {
 
 /* intestazione con logo */
 .header {
-    background-color: whitesmoke;
+    background-color: rgb(228, 27, 27);
     color: #333;
     text-align: center;
     font-family: 'Seven Segment';
@@ -49,8 +49,11 @@ body {
 
 /* tastierino */
 .tastierino {
+    padding: 1px;
+    padding-bottom: 10px;
     display: flex;
-    background-color: whitesmoke;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 /* colonna sinistra */
@@ -67,6 +70,8 @@ body {
 
 /* tasti */
 .button {
+    padding:15px;
+
     width: 60px;
     height: 60px;
     font-family: 'Seven Segment';
