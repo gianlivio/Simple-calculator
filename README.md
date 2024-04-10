@@ -8,8 +8,8 @@ quando si clicca su un numero, concatenarlo al numero visualizzato in alto
 - dare un nome all'indice i
 - aggiungere ai numeri un eventListener che, al click:
 - verifica se si tratta di un numerodiverso da 0,
-  se lo è, lo stampa su display e lo concatena al successivo
-  se non lo è, e quindi è 0, lo stampa su display
+- se lo è, lo stampa su display e lo concatena al successivo
+  
 
 
 
@@ -18,7 +18,13 @@ quando si clicca su un numero, concatenarlo al numero visualizzato in alto
 aggiungere event listener a tutti gli operatori
 quando si clicca su un operatore, salvare l'operatore cliccato e il primo operando, quindi resettare il numero in alto
 
-
+- dichiaro variabile operando e operatore scelto
+- seleziono i bottoni operatore
+- itero con ciclo for e all'interno
+- aggiungo eventListener che:
+- salva operando 1
+- salva operatore scelto
+- prepara il display per operando2
 
 #MILESTONE 3
 aggiungere event listener al pulsante =

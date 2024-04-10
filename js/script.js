@@ -9,11 +9,29 @@ for (let i = 0; i < keyElems.length; i++) {
 
         
         if (!isNaN(valore) || valore === "0") {
-            if (display.textContent === "0") {
-                display.textContent = valore;
+            if (display.innerHTML === "0") {
+                display.innerHTML = valore;
             } else {
-                display.textContent += valore;
+                display.innerHTML += valore;
             }
         }
     });
+}
+
+
+
+
+
+let primoOperando = '';
+let operatoreScelto = '';
+
+const operatori = document.querySelectorAll('.blue');
+
+for(let i = 0; i < operatori.length; i++) {
+    operatori[i].addEventListener('click', function() {
+        primoOperando = display.innerHTML;
+        operatoreScelto = operatori[i].innerHTML;
+        display.innerHTML = '';
+    })
+
 }
